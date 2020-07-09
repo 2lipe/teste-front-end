@@ -1,0 +1,30 @@
+{
+  "name": "teste-front-end",
+  "version": "1.0.0",
+  "description": "![UpperSoft](https://raw.githubusercontent.com/uppersoft/teste-front-end/master/assets/logo-readme.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2lipe/teste-front-end.git"
+  },
+  "author": "Felipe Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2lipe/teste-front-end/issues"
+  },
+  "homepage": "https://github.com/2lipe/teste-front-end#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

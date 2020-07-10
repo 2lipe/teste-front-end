@@ -16,14 +16,16 @@
   <section class="center">
     <div class="form">
       <h1>Acessar</h1>
-      <form method="GET" action="./lista-usuarios.html">
+      <form id="request-form" method="POST" action="./lista-usuarios.html">
         <span>E-Mail</span>
-        <input id="input-email" type="text" name="email" required>
+        <input id="email" type="text" name="email" required>
         <span>Senha</span>
-        <input id="input-senha" type="password" name="senha" required>
+        <input id="password" type="password" name="password" required>
         <button name="submit" id="send-request">ENTRAR</button>
       </form>
     </div>
   </section>
+
+  <script src="../src/send.js"></script>
 </body>
 </html>

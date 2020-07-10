@@ -85,28 +85,29 @@ body {
     margin-bottom: 20px;
   }
 
-  input[type="text"] {
+  input[type="text"],input[type="password"] {
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     height: 30px;
     outline: none;
   }
 
-  input[type="submit"] {
-    font-family: HelveticaNeue;
-    font-size: 13px;
+  button {
+    width: 100%;
     border: 1px solid var(--primary-color);
     border-radius: 5px;
     height: 30px;
     margin-top: 10px;
     background: var(--primary-color);
-    color: #FFFFFF;
     cursor: pointer;
     outline: none;
+    color: #FFFFFF;
+    font-family: HelveticaNeue;
+    font-size: 13px;
     transition: 1s;
   }
 
-  input[type="submit"]:hover {
+  button:hover {
     transform: scale(1.1);
   }
 /* END Form */

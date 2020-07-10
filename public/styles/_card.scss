@@ -1,0 +1,61 @@
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 60px;
+}
+  
+.row {
+  margin: 20px -5px;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+  
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+  
+.card {
+  padding: 20px;
+  text-align: center;
+  background-color: $secundary-color;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  h1 {
+    color: $primary-color;
+    font-family: HelveticaNeue;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    color: $dark-color;
+    font-family: HelveticaNeue;
+  }
+
+}
+
+.ico {
+  float: right;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.avatar {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}

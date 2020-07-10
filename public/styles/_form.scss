@@ -1,0 +1,61 @@
+.form {
+  width: 300px;
+  height: 300px;
+  background: $secundary-color;
+  color: $primary-color;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 20px 30px;
+  border-radius: 7px;
+
+  h1 {
+    font-family: HelveticaNeue;
+    margin: 0;
+    padding: 0 0 25px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  span {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],input[type="password"] {
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    border: 1px solid $primary-color;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    background: $primary-color;
+    cursor: pointer;
+    outline: none;
+    color: #FFFFFF;
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    transition: 1s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  
+  }
+
+}

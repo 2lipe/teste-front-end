@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 const usersProfiles = document.getElementById('profile');
+const footerNumber = document.getElementById('footer');
 const url = 'https://reqres.in/api/users';
 
 const getUsers = async () => {
@@ -32,6 +33,13 @@ function showUsers(users) {
   usersProfiles.innerHTML = output;
 }
 
+function showNumber(numbers) {
+  footerNumber.innerHTML = `<span>Mostrando ${numbers.per_page} de ${numbers.total}</span>`;
+}
+
 window.addEventListener('load', () => {
-  getUsers().then((res) => showUsers(res.data));
+  getUsers().then((res) => {
+    showUsers(res.data);
+    showNumber(res);
+  });
 });

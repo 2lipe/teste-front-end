@@ -6,5 +6,11 @@ import 'core-js';
 import './styles/sass/main.scss';
 
 /** Scripts */
-import './js/main';
-import './js/authentication';
+import GetUsers from './js/get-users';
+import Authentication from './js/authentication';
+
+const auth = new Authentication();
+const getUsers = new GetUsers();
+
+auth.init();
+getUsers.init();

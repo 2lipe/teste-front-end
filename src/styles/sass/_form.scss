@@ -19,6 +19,14 @@
     font-size: 32px;
   }
 
+  p {
+    text-align: center;
+    color: $error-color;
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
   span {
     font-family: HelveticaNeue;
     font-size: 16px;
@@ -36,26 +44,6 @@
     border-radius: 5px;
     height: 30px;
     outline: none;
-  }
-
-  button {
-    width: 100%;
-    border: 1px solid $primary-color;
-    border-radius: 5px;
-    height: 30px;
-    margin-top: 10px;
-    background: $primary-color;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-family: HelveticaNeue;
-    font-size: 16px;
-    transition: 1s;
-  
-    &:hover {
-      transform: scale(1.1);
-    }
-  
   }
 
 }

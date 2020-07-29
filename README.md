@@ -39,3 +39,5 @@ HTML, CSS/SASS, VanillaJS/ECS6+, Webpack, NPM
 #### npm run dev
 
 - A aplicação abrirá no localhost.
+- Email válido: "eve.holt@reqres.in"
+- Password válido: "cityslicka"

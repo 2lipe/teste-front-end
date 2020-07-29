@@ -34,7 +34,7 @@ HTML, CSS/SASS, VanillaJS/ECS6+, Webpack, NPM
 
 ## Rodando a aplicação
 
-#### Baixe a aplicação ou clone com o o comando: $git clone git@github.com:2lipe/teste-front-end.git
+#### Baixe a aplicação ou clone com o comando: $git clone git@github.com:2lipe/teste-front-end.git
 #### npm install ou yarn add
 #### npm run dev
 
